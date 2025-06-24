@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Roboto;
+}
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.top {
+    margin: 0px;
+    background-color: #1F2937;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    font-size: 18px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.top-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 50px 250px 50px;
+}
+h2 {
+    margin: 0;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+p {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button.signup {
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    cursor: pointer;
+    padding: 15px;
+}
